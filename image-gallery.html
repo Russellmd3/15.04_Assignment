@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery - Famous Hacks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            text-align: center;
+        }
+        .menu {
+            background-color: #1e90ff;
+            padding: 10px;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .gallery {
+            margin: 20px;
+        }
+        .gallery h2 {
+            margin-bottom: 10px;
+        }
+        .gallery-item {
+            margin-bottom: 15px;
+        }
+        .gallery-item img {
+            width: 100%;
+            max-width: 300px;
+            height: 150px;
+        }
+        .gallery-item p {
+            margin: 5px 0;
+        }
+        .gallery-item button {
+            background-color: #1e90ff;
+            color: white;
+            padding: 5px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="task3.html">Home</a>
+        <a href="image-gallery.html">Image Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact us</a>
+    </div>
+
+    <div class="gallery">
+        <h2>Famous Hacks Gallery</h2>
+
+        <!-- Yahoo Data Breach -->
+        <div class="gallery-item" id="yahoo-breach">
+            <img src="yahoo1.JPG" alt="Hacker typing on laptop">
+            <p>Hacker accessing Yahoo's systems, affecting Yahoo in 2013-2014.</p>
+            <button onclick="alert('Yahoo Data Breach (2013-2014): Hackers stole data from 3 billion accounts, including names, emails, and passwords due to weak encryption.')">Learn More</button>
+        </div>
+        <div class="gallery-item">
+            <img src="yahoo2.JPG" alt="Data breach alert">
+            <p>Yahoo user data exposed on the dark web, impacting Yahoo.</p>
+            <button onclick="alert('Yahoo Data Breach (2013-2014): The breach affected every Yahoo user, leading to a $35 million settlement.')">Learn More</button>
+        </div>
+        <div class="gallery-item">
+            <img src="yahoo3.JPG" alt="Compromised server">
+            <p>Compromised server used in the attack on Yahoo.</p>
+            <button onclick="alert('Yahoo Data Breach (2013-2014): Users were advised to change passwords and enable MFA after the breach.')">Learn More</button>
+        </div>
+
+        <!-- Equifax Data Breach -->
+        <div class="gallery-item" id="equifax-breach">
+            <img src="eq1.JPG" alt="Unpatched system">
+            <p>Unpatched system led to a breach at Equifax in 2017.</p>
+            <button onclick="alert('Equifax Data Breach (2017): Hackers accessed personal data of 147 million people due to an unpatched vulnerability.')">Learn More</button>
+        </div>
+        <div class="gallery-item">
+            <img src="eq2.JPG" alt="Identity theft warning">
+            <p>Identity theft risks after the breach at Equifax.</p>
+            <button onclick="alert('Equifax Data Breach (2017): Exposed Social Security numbers and birth dates, costing Equifax up to $700 million in settlements.')">Learn More</button>
+        </div>
+        <div class="gallery-item">
+            <img src="eq3.JPG" alt="Phishing attempt">
+            <p>Phishing attempt following the Equifax breach.</p>
+            <button onclick="alert('Equifax Data Breach (2017): Regular software patching could have prevented the attack on Equifax.')">Learn More</button>
+        </div>
+
+        <!-- Stuxnet Worm -->
+        <div class="gallery-item" id="stuxnet-worm">
+            <img src="st1.JPG" alt="Industrial control system">
+            <p>Stuxnet targeted Iran's nuclear facilities, affecting Natanz in 2010.</p>
+            <button onclick="alert('Stuxnet Worm (2010): A cyberweapon that destroyed centrifuges at Iran\'s Natanz facility, disrupting their nuclear program.')">Learn More</button>
+        </div>
+        <div class="gallery-item">
+            <img src="st2.JPG" alt="Damaged centrifuge">
+            <p>Damaged centrifuge at Natanz from the Stuxnet attack.</p>
+            <button onclick="alert('Stuxnet Worm (2010): Destroyed 20% of Iran\'s nuclear centrifuges at Natanz, marking the first cyberweapon to cause physical damage.')">Learn More</button>
+        </div>
+        <div class="gallery-item">
+            <img src="st3.JPG" alt="Cyber warfare">
+            <p>Cyber warfare enabled by Stuxnet, impacting Natanz.</p>
+            <button onclick="alert('Stuxnet Worm (2010): Likely a state-sponsored attack on Natanz, showcasing cyber warfare capabilities.')">Learn More</button>
+        </div>
+
+        <!-- Sony PlayStation Network Hack -->
+        <div class="gallery-item" id="sony-psn-hack">
+            <img src="so1.JPG" alt="Hacked network">
+            <p>Sony PSN hack in 2011, affecting Sony's PlayStation Network.</p>
+            <button onclick="alert('Sony PlayStation Network Hack (2011): Compromised 77 million user accounts on Sony\'s PSN, exposing personal data.')">Learn More</button>
+        </div>
+        <div class="gallery-item">
+            <img src="so2.JPG" alt="User data exposure">
+            <p>User data exposed during the Sony PSN hack.</p>
+            <button onclick="alert('Sony PlayStation Network Hack (2011): Sony shut down the PSN for 23 days, costing $171 million.')">Learn More</button>
+        </div>
+        <div class="gallery-item">
+            <img src="so3.JPG" alt="Online outage">
+            <p>Online outage caused by the Sony PSN hack.</p>
+            <button onclick="alert('Sony PlayStation Network Hack (2011): Exposed names and emails of Sony PSN users.')">Learn More</button>
+        </div>
+
+        <!-- WannaCry Ransomware -->
+        <div class="gallery-item" id="wannacry-ransomware">
+            <img src="wc1.JPG" alt="Ransomware screen">
+            <p>WannaCry ransomware in 2017, affecting many companies like the NHS.</p>
+            <button onclick="alert('WannaCry Ransomware (2017): Locked 200,000 computers globally, including NHS systems, demanding ransom.')">Learn More</button>
+        </div>
+        <div class="gallery-item">
+            <img src="wc2.JPG" alt="Hospital system down">
+            <p>Hospital system shut down by WannaCry, impacting the NHS.</p>
+            <button onclick="alert('WannaCry Ransomware (2017): Exploited a Windows vulnerability, severely disrupting NHS operations.')">Learn More</button>
+        </div>
+        <div class="gallery-item">
+            <img src="wc3.JPG" alt="Global cyber attack">
+            <p>Global spread of WannaCry, affecting companies like the NHS.</p>
+            <button onclick="alert('WannaCry Ransomware (2017): Spread across 150 countries, causing billions in damages to organizations like the NHS.')">Learn More</button>
+        </div>
+    </div>
+</body>
+</html>
